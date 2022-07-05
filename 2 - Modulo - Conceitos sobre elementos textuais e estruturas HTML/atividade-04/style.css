@@ -1,0 +1,182 @@
+@charset "uft-8";
+
+/* Index.html */
+
+body{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0;
+    width: 1000px;
+    border: 1px solid gray;
+    margin: auto;
+    border-radius: 0px 0px 20px 20px;
+}
+
+h1#logo{
+    margin: 0;
+    font-weight: 100;
+    background-color: #191B2B;
+    color: white;
+    text-align: center;
+    padding: 8px;
+}
+
+ul#navbar{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background-color: #191B2B;
+    text-align: center;
+}
+
+li.menu{
+    display: inline-block;
+    padding: 16px 8px;
+    margin: 0px;
+}
+
+a.linkmenu{
+    color: white;
+    padding: 8px 16px;
+}
+
+a.linkmenu:visited{
+    color: white;
+    padding: 8px 16px;
+}
+
+a.linkmenu:hover{
+    background-color: white;
+    color: #191B2B;
+    border-radius: 12px;
+}
+
+h1{
+    font-size: 1.5em;
+}
+
+h2{
+    font-size: 1em;
+    color:#272727;
+}
+
+h1,h2{
+    text-align: center;
+}
+
+article{
+    padding: 18px;
+    border: 1px solid gray;
+    border-radius: 20px;
+    margin: 20px;
+}
+
+#img-banner{
+    width: 1000px;
+    margin: 0px;
+    border-radius: 0px 0px 20px 20px;
+}
+
+a{
+    text-decoration: none;
+}
+
+a.lermais{ 
+    color: blue;
+}
+
+
+a:visited{
+    color: #45454562;
+}
+
+section#s-principal{
+    padding: 18px;
+    border: 1px solid gray;
+    border-radius: 20px;
+    margin: 20px;
+}
+
+aside{
+    color: rgb(94, 94, 94);
+    margin: 10px;
+}
+
+p{
+    text-indent: 50px;
+    margin: 5px;
+    text-align: justify;
+}
+
+footer{
+    text-align: center;
+    margin-bottom: 10px;
+    color: #3f3f3f;
+}
+
+img.img-shadow{
+    border-radius: 20px;
+    box-shadow: 2px 2px 10px #525252;
+    display: block;
+    margin: auto;
+    margin-bottom: 20px;
+    width: 50%;
+}
+
+/* sobre.html */
+
+section.s-padrao{
+    padding: 20px 60px 20px 60px;
+}
+
+img.equipe{
+    border-radius: 20px;
+    box-shadow: 2px 2px 10px #525252;
+    width: 80%;
+}
+
+section.dev{
+    float: right;
+    text-align: center;
+    margin: 0;
+}
+
+section.equipe-desc{
+    width: 60%;
+}
+
+article#equipe{
+    overflow: auto;
+}
+
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+
+
+li.button{
+    display: inline-block;
+    padding: 16px 8px;
+    margin: 0px;
+}
+
+a.social{
+    color: black;
+    padding: 8px 16px;
+    border-radius: 12px;
+    border: 1px solid black;
+}
+
+a.social:visited{
+    color: #45454562;
+    padding: 8px 16px;
+}
+
+a.social:hover{
+    background-color: black;
+    color: white;
+    border-radius: 12px;
+}
