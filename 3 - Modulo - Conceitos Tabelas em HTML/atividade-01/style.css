@@ -1,0 +1,18 @@
+@charset "utf-8";
+
+body{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+table, tr, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 5px;
+    text-align: center;
+    margin: 20px;
+}
+
+caption{
+    margin-bottom: 10px;
+    font-weight:600;
+}
