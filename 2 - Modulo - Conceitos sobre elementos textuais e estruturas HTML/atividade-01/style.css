@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+body{
+    background-color: black;
+    color: white;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h1{
+    font-weight: lighter;
+}
+
+p{
+    margin-top: 1px;
+}
+
+article{
+    border: 2px solid white;
+    position: relative;
+    width: 650px;
+}
+
+#foto-perfil{
+    width: 50%;
+}
+
+#poema-foto{
+    padding: 0.5%;
+    float: left;
+    position: absolute;
+    top: 50%;
+    transform: translate(0%, -50%);
+}
+
+#poema-texto{
+    text-align: center;
+}
+
