@@ -1,0 +1,88 @@
+@charset "utf-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body{  
+    font-family: 'Inter', sans-serif;
+    background-color: #F5F5F5;
+    position: relative;
+}
+
+section#formulario{
+    width: 255px;
+    background-color: white;
+    border-radius: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-50%, 50%);
+
+    padding: 21px 17px;
+    box-sizing: border-box;
+}
+
+label{
+    display: block;
+    margin-bottom: 9px;
+}
+
+input{
+    display: block;
+    margin-bottom: 12px;
+}
+
+h1#titulo-cad{
+    text-align: center;
+    font-size: 12px;
+    font-weight: 600;
+    margin-bottom: 21px;
+}
+
+.label{
+    font-size: 10px;
+    font-weight: 200;
+}
+
+.enviar{
+    font-size: 12px;
+    font-weight: 400;
+    border: none;
+    color: white;
+    background-color: black;
+    width: 60px;
+    height: 30px;
+    padding: 10px;
+    line-height: 5%;
+    border-radius: 12px;
+    margin: auto;
+    margin-top: 25px;
+}
+
+input{
+    background-color: #F1F1F1;
+    border-radius: 12px;
+    border: none;
+    width: 212px;
+    height: 25px;
+    color: #787878;
+    font-size: 10px;
+    text-align: center;
+}
+
+/* 
+
+Hide arrows from input (type = number) 
+Esconder setas do input (type = number)
+
+*/
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number] {
+    -moz-appearance: textfield;
+}
