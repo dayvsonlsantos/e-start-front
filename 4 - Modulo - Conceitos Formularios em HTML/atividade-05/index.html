@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 05</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <article>
+            <form action="./pag2.html" method="post">
+
+                <fieldset>
+
+                    <legend class="font_style">Formulário</legend>
+
+                    <section>
+                        <label class="font_style" for="nome">Nome Completo: </label>
+                        <input class="input_style" type="text" id="nome" name="nome">
+
+                        <br>
+
+                        <label class="font_style" for="datanasc">Data de Nascimento: </label>
+                        <input class="input_style" type="date" id="datanasc" name="datanasc">
+                    </section>
+
+                    <section id="s-esquerda">
+                        <label class="label_style font_style" for="estado">Selecione o estado em que mora: </label>
+
+                        <select name="estado" id="estado">
+                            <option value="estado" selected>Selecionar</option>
+                            <optgroup class="font_style" label="Norte">
+                                <option value="acre">Acre</option>
+                                <option value="amapa">Amapá</option>
+                                <option value="amazonas">Amazonas</option>
+                                <option value="para">Pará</option>
+                                <option value="rondonia">Rondônia</option>
+                                <option value="roraima">Roraima</option>
+                                <option value="tocantins">Tocantins</option>
+                            </optgroup>
+                            <optgroup class="font_style" label="Nordeste">
+                                <option value="maranhao">Maranhão</option>
+                                <option value="piaui">Piauí</option>
+                                <option value="ceara">Ceará</option>
+                                <option value="rio grande do norte">Rio Grande do Norte</option>
+                                <option value="paraiba">Paraíba</option>
+                                <option value="pernambuco">Pernambuco</option>
+                                <option value="alagoas">Alagoas</option>
+                                <option value="sergipe">Sergipe</option>
+                                <option value="bahia">Bahia</option>
+                            </optgroup>
+                            <optgroup class="font_style" label="Centro-Oeste">
+                                <option value="distrito federal">Distrito Federal</option>
+                                <option value="goias">Goiás</option>
+                                <option value="mato grosso">Mato Grosso</option>
+                                <option value="mato grosso do sul">Mato Grosso do Sul</option>
+                            </optgroup>
+                            <optgroup class="font_style" label="Sudeste">
+                                <option value="sao paulo">São Paulo</option>
+                                <option value="minas gerais">Minas Gerais</option>
+                                <option value="rio de janeiro">Rio de Janeiro</option>
+                                <option value="espirito santo">Espírito Santo</option>
+                            </optgroup>
+                            <optgroup class="font_style" label="Sul">
+                                <option value="parana">Paraná</option>
+                                <option value="santa catarina">Santa Catarina</option>
+                                <option value="rio grande do sul">Rio Grande do Sul</option>
+                            </optgroup>
+                        </select>
+                    </section>
+
+                    <section id="s-direita">
+                        <label class="vertical_radio label_style font_style">Gênero:</label>
+                        
+                        <label class="vertical_radio font_style">
+                        <input type="radio" name="genero" value="masculino">Masculino</label>
+                        
+                        <label class="vertical_radio font_style">
+                        <input type="radio" name="genero" value="feminino">Feminino</label>
+                        
+                        <label class="vertical_radio font_style">
+                        <input type="radio" name="genero" value="outro">Outro</label>
+                        
+                        
+                    </section>
+
+                    <section id="s-botton">
+                        <label class="font_style" for="soma">5 + 4 é? </label>
+                        <input class="input_style" type="number" id="soma" name="soma">
+                    </section>
+
+                    <input id="salvar" type="submit" value="Salvar">
+
+                </fieldset>
+
+            </form>
+        </article>
+    </main>
+</body>
+</html>

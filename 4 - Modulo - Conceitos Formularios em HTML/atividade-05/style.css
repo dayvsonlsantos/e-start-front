@@ -1,0 +1,87 @@
+@charset "utf-8";
+
+body{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+fieldset{
+    padding: 25px 25px 0px 25px;
+    width: 500px;
+    border: 3px solid black;
+    border-radius: 4px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+
+    transform: translate(-50%, -50%);
+}
+
+.font_style{
+    font-weight: 400;
+}
+
+input{
+    margin-bottom: 30px;
+}
+
+.label_style{
+    display: block;
+    margin-bottom: 10px;
+}
+
+section#s-direita{
+    float: right;
+    margin-right: 30px;
+}
+
+section#s-esquerda{
+    float: left;
+}
+
+section#s-botton{
+    clear: right;
+}
+
+input{
+    background-color: white;
+    border: 2px solid black;
+    text-align: center;
+}
+
+select{
+    background-color: white;
+    border: 2px solid black;
+}
+
+input#salvar{
+    box-shadow: 2px 2px 0px black;
+    padding: 1px 20px;
+    font-weight: 400;
+    float: right;
+}
+
+
+.vertical_radio{
+    display: block;
+}
+
+input[type=radio] {
+    margin-bottom: 5px;
+}
+
+/* 
+
+Hide arrows from input (type = number) 
+Esconder setas do input (type = number)
+
+*/
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number] {
+    -moz-appearance: textfield;
+}
