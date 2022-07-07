@@ -1,0 +1,26 @@
+@charset "utf-8";
+
+.color{
+    color: purple;
+}
+
+p, ul{
+    font-size: 90px;
+    text-align: justify;
+}
+
+h1#center{
+    text-align: center;
+    font-size: 120px;
+}
+
+
+main{
+    border: 1px dashed purple;
+    padding: 5%;
+}
+
+ul{
+    list-style-position: inside;
+    list-style-type: circle;
+}
