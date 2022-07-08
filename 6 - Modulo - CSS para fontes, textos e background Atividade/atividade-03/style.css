@@ -1,0 +1,18 @@
+@charset "utf-8";
+
+section#color{
+    background-color: lightblue;
+}
+
+h1{
+    background-color: green;
+    color: white;
+}
+
+section#image{
+    height: 800px;
+    background-image: url("https://www.chavesnamao.com.br/imn/0500x0350/N/veiculos/101296/2114048/ferrari-f8-3-9-spider-v8-bi-turbo-720cv_f0eb0c53718.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}
