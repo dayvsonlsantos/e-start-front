@@ -4,6 +4,7 @@
 
 2)      Adicionar o código abaixo no arquivo HTML
 
+<!--
 <!DOCTYPE html>
 <head>
 
@@ -15,6 +16,8 @@
 </body>
 </html>
 
+-->
+
 3)      Associar o arquivo CSS na página HTML
 
 4)      No arquivo CSS, defina a família da fonte da página HTML como "Courier New" e a família da fonte do elemento <h1> como "Verdana".
@@ -23,3 +26,15 @@
 
 6)      No arquivo CSS, estilizar o tamanho da fonte para 30 pixels do primeiro elemento <p> após o elemento <h1>.
 
+# Resultado:
+
+<!DOCTYPE html>
+<head>
+
+</head>
+<body>
+    <h1>Este é um heading</h1>
+    <p>Este é um parágrafo.</p>
+    <p>Este é outro parágrafo.</p>
+</body>
+</html>
