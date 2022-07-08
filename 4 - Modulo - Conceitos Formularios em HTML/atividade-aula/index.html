@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade Aula</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <article>
+            <p class="box">Cadastrar contatos</p>
+            
+            <form action="./tela2.html" method="post">
+                
+                <section id="s-top">
+                    <input class="campo" type="text" name="nome" placeholder="Digite seu nome">
+                    <input class="campo" type="number" name="telefone" placeholder="Digite seu telefone">
+                    <input class="campo" type="text" name="adress" placeholder="Digite o endereço">
+                </section>
+                
+                <section id="s-left">
+                    <label class="vertical-align" for="genero">Gênero</label>
+                    
+                    <label class="vertical-align"><input type="radio" id="masculino" name="genero" value="Masculino">Masculino</label>
+
+                    <label class="vertical-align"><input type="radio" id="feminino" name="genero" value="Feminino">Feminino</label>
+
+                    <label class="vertical-align"><input type="radio" id="outro" name="genero" value="Outro">Outro</label>
+                </section>
+                
+                <section id="s-right">
+                    <div id="perfil">
+                        <img id="imgperfil" src="https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80" alt="Foto de Perfil">
+                        <textarea name="sobre" id="sobre" cols="20" rows="2" placeholder="Olá, meu nome é Garibaldo Dagoberto"></textarea>
+                    </div>
+
+                    <div id="button">
+                        <input class="button" type="submit" value="Salvar">
+                        <input class="button" type="button" value="Cancelar">
+                    </div>
+                    
+                </section>
+                
+                
+                <section id="s-bottom">
+                    <p class="box">Desenvolvido por Dayvson Lima</p>
+                </section>
+            
+                
+
+            </form>
+        </article>
+    </main>
+</body>
+</html>
